@@ -6,6 +6,8 @@
 //
 
 import Foundation
+/// Import just the UIImage class from UIKit
+import class UIKit.UIImage
 
 struct Library {
   var sortedBooks: [Book] { booksCache }
@@ -24,4 +26,6 @@ struct Library {
     .init(title: "Drawing People", author: "Barbara Bradley"),
     .init(title: "What to Say When You Talk to Yourself", author: "Shad Helmstetter")
   ]
+  
+  var uiImages: [Book: UIImage] = [:]
 }

@@ -17,6 +17,7 @@
 		116DF5FD25B7141B0086BCDA /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116DF5FC25B7141B0086BCDA /* Library.swift */; };
 		116DF60325B716710086BCDA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116DF60225B716710086BCDA /* DetailView.swift */; };
 		11B6ACEE25B71CED00B45BC4 /* TitleAndAuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6ACED25B71CED00B45BC4 /* TitleAndAuthorView.swift */; };
+		11B6ACF225B7439B00B45BC4 /* PHPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6ACF125B7439B00B45BC4 /* PHPickerViewController.swift */; };
 		11CCABC225ADE0A100BB8D95 /* BookRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CCABC125ADE0A100BB8D95 /* BookRowView.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		116DF5FC25B7141B0086BCDA /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		116DF60225B716710086BCDA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		11B6ACED25B71CED00B45BC4 /* TitleAndAuthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleAndAuthorView.swift; sourceTree = "<group>"; };
+		11B6ACF125B7439B00B45BC4 /* PHPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerViewController.swift; sourceTree = "<group>"; };
 		11CCABC125ADE0A100BB8D95 /* BookRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				11659AA825ACC34300F5D7F2 /* ContentView.swift */,
+				11B6ACF125B7439B00B45BC4 /* PHPickerViewController.swift */,
 				11659ABE25ACC80800F5D7F2 /* BookViews.swift */,
 				11CCABC125ADE0A100BB8D95 /* BookRowView.swift */,
 				11B6ACED25B71CED00B45BC4 /* TitleAndAuthorView.swift */,
@@ -191,6 +194,7 @@
 				11659AA725ACC34300F5D7F2 /* ReadMeApp.swift in Sources */,
 				116DF5FD25B7141B0086BCDA /* Library.swift in Sources */,
 				11CCABC225ADE0A100BB8D95 /* BookRowView.swift in Sources */,
+				11B6ACF225B7439B00B45BC4 /* PHPickerViewController.swift in Sources */,
 				11659AB725ACC3EC00F5D7F2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
